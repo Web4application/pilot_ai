@@ -11,3 +11,6 @@ chmod +x .git/hooks/pre-commit
 
 cd extensions/cert_dashboard
 streamlit run app.py
+
+pip install flask openai web3 python-dotenv
+python app.py
